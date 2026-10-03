@@ -325,3 +325,10 @@ html[data-theme="dark"] .kaggle-card a,html[data-theme="dark"] .kaggle-all,html[
 .contact-status.is-error{background:#fff0f0;color:#a02222;border:.0625rem solid #e7a0a0}
 html[data-theme="dark"] .contact-status.is-success{background:#163b26;color:#a6efbd;border-color:#347b4b}
 html[data-theme="dark"] .contact-status.is-error{background:#431f24;color:#ffc0c0;border-color:#a14f5a}
+/* Match reference cards while keeping profile descriptions unattributed. */
+#resume-testimonials .profile-initials{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-radius:50%;background:#eaf3fd;color:#0064bd;font-weight:600;font-size:1.5rem}
+
+#resume-testimonials .testimonial-author a{color:inherit;text-decoration:none}
+#resume-testimonials .testimonial-author a:hover,#resume-testimonials .testimonial-author a:focus-visible{color:#007ced;text-decoration:underline;text-underline-offset:0.2em}
+html[data-theme="dark"] #resume-testimonials .testimonial-author a:hover,html[data-theme="dark"] #resume-testimonials .testimonial-author a:focus-visible{color:#8ecbff}
+#resume-testimonials .testimonial-picture img{width:100%;height:100%;object-fit:cover;border-radius:50%}
